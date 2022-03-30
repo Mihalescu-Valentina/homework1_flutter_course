@@ -142,41 +142,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-/*class HomePage extends StatelessWidget {
-   HomePage({Key? key}) : super(key: key);
 
-  Widget appBarTitle= new Text("Currency convertor");
-  String  userSum= ' ';
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(backgroundColor: Colors.blue,centerTitle:true,title:appBarTitle),
-      body: Column(children: <Widget>[Container(decoration: BoxDecoration(
-          color: const Color(0xff7c94b6),
-      image: const DecorationImage(
-        image: NetworkImage('https://www.stiridinlume.ro/wp-content/uploads/2021/08/Bancnota-de-100-de-lei-este-cea-mai-falsificata-bancnota-romaneasca.jpg'),
-        fit: BoxFit.cover,
-      ),
-    ),height: 225,width: 900,),Padding(padding: EdgeInsets.all(30),child: TextField(decoration: InputDecoration(hintText: "Enter the amount in EUR:",border: OutlineInputBorder(),),),), RaisedButton(
-        textColor: Colors.white,
-        color: Colors.blue,
-        child: Text('CONVERT!'),
-        onPressed: () => {
-    moneyConverter()
-    },
-    child: new Text('Button Clicks - ${count}'),
-    ),
-      )
-        ,Expanded(
-          child: Container(
-            child: Center(
-              child: Text('Hello!'),
-            ),),),],)
-
-
-    );}}
-
-*/
 
 class HomePage extends StatefulWidget {
   HomePage({Key? key}) : super(key: key);
